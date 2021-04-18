@@ -14,7 +14,7 @@
     
     
       
-        <title>Rest API - Applysis Documentation</title>
+        <title>Create API Source - Applysis Documentation</title>
       
     
     
@@ -25,7 +25,7 @@
         
           
           
-          <meta name="theme-color" content="#4051b5">
+          <meta name="theme-color" content="#7e56c2">
         
       
     
@@ -52,7 +52,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="indigo" data-md-color-accent="">
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="deep-purple" data-md-color-accent="">
   
     
     <script>function __prefix(e){return new URL("../..",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#rest-api" class="md-skip">
+        <a href="#create-api-source" class="md-skip">
           Skip to content
         </a>
       
@@ -93,7 +93,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Rest API
+              Create API Source
             
           </span>
         </div>
@@ -254,18 +254,6 @@
             
   
   
-  
-    <li class="md-nav__item">
-      <a href="../1-Creating%20API%20Source/" class="md-nav__link">
-        Create API Source
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
     
   
   
@@ -276,79 +264,9 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Rest API
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="./" class="md-nav__link md-nav__link--active">
-        Rest API
+        Create API Source
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#submission-feedback-with-api-key" class="md-nav__link">
-    Submission feedback with API Key
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#steps-to-submit" class="md-nav__link">
-    Steps to submit
-  </a>
-  
-    <nav class="md-nav" aria-label="Steps to submit">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-prepare-the-valid-json" class="md-nav__link">
-    1. Prepare the valid JSON
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-add-headers" class="md-nav__link">
-    2. Add headers
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-submit-feedback" class="md-nav__link">
-    3. Submit feedback
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#limitations" class="md-nav__link">
-    Limitations
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -359,7 +277,19 @@
   
   
     <li class="md-nav__item">
-      <a href="../3-iOS%20SDK/" class="md-nav__link">
+      <a href="../b-rest-api/" class="md-nav__link">
+        Rest API
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../c-ios-sdk/" class="md-nav__link">
         iOS SDK
       </a>
     </li>
@@ -371,7 +301,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Android%20SDK/" class="md-nav__link">
+      <a href="../d-android-sdk/" class="md-nav__link">
         Android SDK
       </a>
     </li>
@@ -402,62 +332,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#submission-feedback-with-api-key" class="md-nav__link">
-    Submission feedback with API Key
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#steps-to-submit" class="md-nav__link">
-    Steps to submit
-  </a>
-  
-    <nav class="md-nav" aria-label="Steps to submit">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#1-prepare-the-valid-json" class="md-nav__link">
-    1. Prepare the valid JSON
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#2-add-headers" class="md-nav__link">
-    2. Add headers
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#3-submit-feedback" class="md-nav__link">
-    3. Submit feedback
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#limitations" class="md-nav__link">
-    Limitations
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -469,55 +343,26 @@
               
                 
                 
-                <h1 id="rest-api">Rest API</h1>
-<h3 id="submission-feedback-with-api-key">Submission feedback with API Key</h3>
-<p>Once you generate the API key on Applysis platform, you can use it now in your own systems to submit feedbacks directly to us.</p>
-<p>Our API expects 7 fields, out of which only <strong>text</strong> is mandatory. Here is what you can submit to us.</p>
-<ul>
-<li><strong>text</strong>: mandatory, e.g review text, email body etc.</li>
-<li><strong>title</strong>: optional, e.g email subject, question, review title etc.</li>
-<li><strong>date</strong>: optional. We expect any valid JSON date.</li>
-<li><strong>rating</strong>: optional, e.g review rating, we expect it to be minimum 1, maximum 5</li>
-<li><strong>author</strong>: optional, e.g user name, email address.</li>
-<li><strong>region</strong>: optional, it can hold any region value you desire e.g country, city, county.</li>
-<li><strong>version</strong>: optional, e.g 1.5, 1.6.1 etc.</li>
-</ul>
-<h3 id="steps-to-submit">Steps to submit</h3>
-<h4 id="1-prepare-the-valid-json">1. Prepare the valid JSON</h4>
-<p>Here are some few important things to consider:</p>
+                <h1 id="create-api-source">Create API Source</h1>
+<p>Applysis provides API which gives the businesses or developers to submit feedbacks from their own software systems, it can be mobile in-app feedback, website widget etc.</p>
+<p>Here are few steps how to create API source on Applysis platform.</p>
 <ol>
-<li><code>text</code> field can not be <code>null</code> nor empty.</li>
-<li>API expects array of the feedack objects.</li>
-<li>You can not submit more than 50 feedbacks at a single batch.</li>
+<li>Go on <a href="https://app.applysis.io/sources">Sources</a> page.</li>
+<li>Click <strong>Add Source</strong> button.</li>
+<li>Choose <strong>API</strong> from the sources type.</li>
+<li>Enter the name of the source e.g iOS in-app feedback.</li>
+<li>In order to perform analysis better we require you to link your API source with your mobile application. So click <strong>Link the app</strong>.
+   <img alt="" src="../../assets/api/api-add-source.png" /></li>
+<li>When popup appears, select the Apple or Google store.</li>
+<li>Select the country.</li>
+<li>Enter the app name.</li>
+<li>Click search. <img alt="" src="../../assets/api/api-linking-source.png" /></li>
+<li>Once search is over, you have to click <strong>Add Source</strong> for the desired app to link. <img alt="" src="../../assets/api/api-adding-source.png" /></li>
+<li>Now you can click <strong>Create</strong> the source.</li>
+<li>API key will be generated. You can copy it for now. <img alt="" src="../../assets/api/api-copy-key.png" /></li>
 </ol>
-<p>Here is the example of JSON:</p>
-<pre><code>[
-    {
-        &quot;text&quot;: &quot;Thank you for providing such amazing app!&quot;,
-        &quot;title&quot;: &quot;Nice app!&quot;,
-        &quot;date&quot;: &quot;2020-04-23T18:25:43.511Z&quot;,
-        &quot;rating&quot;: 5,
-        &quot;author&quot;: &quot;shalva@applysis.io&quot;,
-        &quot;region&quot;: &quot;Tallinn&quot;,
-        &quot;version&quot;: &quot;1.5.1&quot;
-    }
-]
-</code></pre>
-<h4 id="2-add-headers">2. Add headers</h4>
-<p>We require to append only two headers:</p>
-<ol>
-<li><code>x-api-key: your-secret-key</code></li>
-<li><code>Content-Type: application/json</code></li>
-</ol>
-<h4 id="3-submit-feedback">3. Submit feedback</h4>
-<p>Prepare your request, add body and headers and use POST method to <code>https://api-public.applysis.io</code></p>
-<h2 id="limitations">Limitations</h2>
-<ul>
-<li>You can not submit more than 50 feedbacks at a single request.</li>
-<li>With the current plans, you can submit maximum 2000 feedbacks in a month.</li>
-<li><code>text</code> field can not be <code>null</code> nor empty.</li>
-</ul>
-<p>For any issues or technical difficulties, please <a href="mailto:contact@applysis.io">reach out</a> us.</p>
+<p>Well done! Your API Source is created! 🎉</p>
+<p>No you can use this <strong>api key</strong> and submit feedback from any system your company requires. If you encounter any problems, please <a href="mailto:contact@applysis.io">send us an note</a>, we will be in touch soon.</p>
                 
               
               
@@ -536,7 +381,7 @@
   
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
-        <a href="../1-Creating%20API%20Source/" class="md-footer__link md-footer__link--prev" rel="prev">
+        <a href="../../import-CSV-analysis/" class="md-footer__link md-footer__link--prev" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -545,19 +390,19 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Create API Source
+              Import CSV
             </div>
           </div>
         </a>
       
       
-        <a href="../3-iOS%20SDK/" class="md-footer__link md-footer__link--next" rel="next">
+        <a href="../b-rest-api/" class="md-footer__link md-footer__link--next" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              iOS SDK
+              Rest API
             </div>
           </div>
           <div class="md-footer__button md-icon">
