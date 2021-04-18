@@ -2,7 +2,7 @@ site_name: Applysis Documentation
 theme:
     name: material
     palette:
-        primary: deep-purple
+        primary: indigo
     # deep purple: "(prefers-color-scheme: light)"
     #   scheme: default
     #   primary: indigo
