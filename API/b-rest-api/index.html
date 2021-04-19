@@ -471,8 +471,8 @@
                 
                 <h1 id="rest-api">Rest API</h1>
 <h3 id="submission-feedback-with-api-key">Submission feedback with API Key</h3>
-<p>Once you generate the API key on Applysis platform, you can use it now in your own systems to submit feedbacks directly to us.</p>
-<p>Our API expects 7 fields, out of which only <strong>text</strong> is mandatory. Here is what you can submit to us.</p>
+<p>Once you <a href="../a-creating-api-source/">generate the API</a> key on Applysis platform, you can use it now in your own software systems to submit customer feedbacks directly to us.</p>
+<p>Our feedback object expects 7 fields, out of which only <strong>text</strong> is mandatory. Here is what you can submit to us.</p>
 <ul>
 <li><strong>text</strong>: mandatory, e.g review text, email body etc.</li>
 <li><strong>title</strong>: optional, e.g email subject, question, review title etc.</li>
@@ -486,14 +486,14 @@
 <h4 id="1-prepare-the-valid-json">1. Prepare the valid JSON</h4>
 <p>Here are some few important things to consider:</p>
 <ol>
-<li><code>text</code> field can not be <code>null</code> nor empty.</li>
 <li>API expects array of the feedack objects.</li>
-<li>You can not submit more than 50 feedbacks at a single batch.</li>
+<li>You can not submit more than 50 feedbacks at a single batch and it can be minimum one feedback.</li>
+<li><code>text</code> field can not be <code>null</code> nor empty.</li>
 </ol>
 <p>Here is the example of JSON:</p>
 <pre><code>[
     {
-        &quot;text&quot;: &quot;Thank you for providing such amazing app!&quot;,
+        &quot;text&quot;: &quot;Thank you for providing such an amazing app!&quot;,
         &quot;title&quot;: &quot;Nice app!&quot;,
         &quot;date&quot;: &quot;2020-04-23T18:25:43.511Z&quot;,
         &quot;rating&quot;: 5,
@@ -504,17 +504,18 @@
 ]
 </code></pre>
 <h4 id="2-add-headers">2. Add headers</h4>
-<p>We require to append only two headers:</p>
+<p>Here is the place where we will use the generated secret key. So, we require to append only two headers:</p>
 <ol>
 <li><code>x-api-key: your-secret-key</code></li>
 <li><code>Content-Type: application/json</code></li>
 </ol>
 <h4 id="3-submit-feedback">3. Submit feedback</h4>
-<p>Prepare your request, add body and headers and use POST method to <code>https://api-public.applysis.io</code></p>
+<p>Prepare your request, add body, headers and POST it to <code>https://api-public.applysis.io</code></p>
+<p><strong>N.B</strong> If you are going to submit feedback from Apple systems, we have prepared <a href="../c-ios-sdk/">Swift Package</a> supporting iOS, OSX, WatchOS and TVOS, which eases the submission process.</p>
 <h2 id="limitations">Limitations</h2>
 <ul>
 <li>You can not submit more than 50 feedbacks at a single request.</li>
-<li>With the current plans, you can submit maximum 2000 feedbacks in a month.</li>
+<li>With the current plans, you can submit maximum 2000 feedbacks in a month. If you wish you increase the amount, please <a href="mailto:contact@applysis.io">reach out</a> us.</li>
 <li><code>text</code> field can not be <code>null</code> nor empty.</li>
 </ul>
 <p>For any issues or technical difficulties, please <a href="mailto:contact@applysis.io">reach out</a> us.</p>

@@ -2,9 +2,9 @@
 
 ### Submission feedback with API Key
 
-Once you generate the API key on Applysis platform, you can use it now in your own systems to submit feedbacks directly to us.
+Once you [generate the API](a-creating-api-source.md) key on Applysis platform, you can use it now in your own software systems to submit customer feedbacks directly to us.
 
-Our API expects 7 fields, out of which only **text** is mandatory. Here is what you can submit to us.
+Our feedback object expects 7 fields, out of which only **text** is mandatory. Here is what you can submit to us.
 
 -   **text**: mandatory, e.g review text, email body etc.
 -   **title**: optional, e.g email subject, question, review title etc.
@@ -20,16 +20,16 @@ Our API expects 7 fields, out of which only **text** is mandatory. Here is what 
 
 Here are some few important things to consider:
 
-1. `text` field can not be `null` nor empty.
-2. API expects array of the feedack objects.
-3. You can not submit more than 50 feedbacks at a single batch.
+1. API expects array of the feedack objects.
+2. You can not submit more than 50 feedbacks at a single batch and it can be minimum one feedback.
+3. `text` field can not be `null` nor empty.
 
 Here is the example of JSON:
 
 ```
 [
     {
-        "text": "Thank you for providing such amazing app!",
+        "text": "Thank you for providing such an amazing app!",
         "title": "Nice app!",
         "date": "2020-04-23T18:25:43.511Z",
         "rating": 5,
@@ -42,19 +42,21 @@ Here is the example of JSON:
 
 #### 2. Add headers
 
-We require to append only two headers:
+Here is the place where we will use the generated secret key. So, we require to append only two headers:
 
 1. `x-api-key: your-secret-key`
 2. `Content-Type: application/json`
 
 #### 3. Submit feedback
 
-Prepare your request, add body and headers and use POST method to `https://api-public.applysis.io`
+Prepare your request, add body, headers and POST it to `https://api-public.applysis.io`
+
+**N.B** If you are going to submit feedback from Apple systems, we have prepared [Swift Package](c-ios-sdk.md) supporting iOS, OSX, WatchOS and TVOS, which eases the submission process.
 
 ## Limitations
 
 -   You can not submit more than 50 feedbacks at a single request.
--   With the current plans, you can submit maximum 2000 feedbacks in a month.
+-   With the current plans, you can submit maximum 2000 feedbacks in a month. If you wish you increase the amount, please [reach out](mailto:contact@applysis.io) us.
 -   `text` field can not be `null` nor empty.
 
 For any issues or technical difficulties, please [reach out](mailto:contact@applysis.io) us.

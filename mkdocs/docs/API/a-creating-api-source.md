@@ -1,8 +1,8 @@
 # Create API Source
 
-Applysis provides API which gives the businesses or developers to submit feedbacks from their own software systems, it can be mobile in-app feedback, website widget etc.
+Applysis provides API which gives the businesses or developers ability to submit customer feedbacks from their own software systems, it can be mobile in-app feedback, website widget etc.
 
-Here are few steps how to create API source on Applysis platform.
+This document will provide you step by step guide how to **create API Source** on our platform and **generate secret key**.
 
 1. Go on [Sources](https://app.applysis.io/sources) page.
 2. Click **Add Source** button.
@@ -18,6 +18,6 @@ Here are few steps how to create API source on Applysis platform.
 11. Now you can click **Create** the source.
 12. API key will be generated. You can copy it for now. ![](../assets/api/api-copy-key.png)
 
-Well done! Your API Source is created! 🎉
+Well done! Your API Source is created! 🎉 Not it is time to [submit the feedback](b-rest-api.md) from our systems.
 
 No you can use this **api key** and submit feedback from any system your company requires. If you encounter any problems, please [send us an note](mailto:contact@applysis.io), we will be in touch soon.
