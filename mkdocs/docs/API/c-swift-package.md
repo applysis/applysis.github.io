@@ -1,6 +1,6 @@
-# iOS SDK
+# Swift Package
 
-Applysis iOS SDK gives opportunity to submit feedback automatically from iOS, OSX, WatchOS or TVOS apps directly to [Applysis platform](https://app.applysis.io/). SDK can be used as Swift Package Manager and downloaded from [github repository](https://github.com/applysis/applysis-ios-sdk).
+Applysis Swift Package gives opportunity to submit feedback automatically from iOS, OSX, WatchOS or TVOS apps directly to [Applysis platform](https://app.applysis.io/). SDK can be used as Swift Package Manager and downloaded from [github repository](https://github.com/applysis/applysis-ios-sdk).
 
 ## Supported Versions
 
