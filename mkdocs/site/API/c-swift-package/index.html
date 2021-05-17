@@ -508,7 +508,7 @@
                 
                 
                 <h1 id="swift-package">Swift Package</h1>
-<p>Applysis Swift Package gives opportunity to submit feedback automatically from iOS, OSX, WatchOS or TVOS apps directly to <a href="https://app.applysis.io/">Applysis platform</a>. SDK can be used as Swift Package Manager and downloaded from <a href="https://github.com/applysis/applysis-ios-sdk">github repository</a>.</p>
+<p>Applysis Swift Package gives the opportunity to submit feedback automatically from iOS, OSX, WatchOS or TVOS apps directly to the <a href="https://app.applysis.io/">Applysis platform</a>. SDK can be used as Swift Package Manager and downloaded from <a href="https://github.com/applysis/applysis-ios-sdk">github repository</a>.</p>
 <h2 id="supported-versions">Supported Versions</h2>
 <ul>
 <li>iOS from 13.0</li>
@@ -517,7 +517,7 @@
 <li>WatchOS from 6.0</li>
 </ul>
 <h2 id="usage">Usage</h2>
-<p>Before you start using the Package, you should add new API source on Applysis platform and generate the secret key. All details are explained <a href="http://docs.applysis.io/">here.</a></p>
+<p>Before you start using the Package, you should add a new API source on Applysis platform and generate the secret key. All details are explained <a href="http://docs.applysis.io/">here.</a></p>
 <h3 id="initialising">Initialising</h3>
 <p>Import <code>Applysis</code> in AppDelegate.swift and add initalisiation in <code>didFinishLaunchingWithOptions</code>.</p>
 <p><code>Applysis.initalise(with: "your-secret-key")</code></p>
@@ -557,15 +557,15 @@ Applysis.shared.submitFeedback(feedback)
     .store(in: &amp;cancellables)
 </code></pre>
 <h5 id="submission-by-batches">Submission by batches</h5>
-<p>Submission can be done batch by batch. You can use <code>Applysis.shared.submitFeedbacks(_ feedbacks: [Feedback])</code> to submit maximum 50 feedbacks at a time.</p>
-<p>If feedback(s) was successfully submitted, it should be visible on <a href="https://app.applysis.io/">Applysis platform</a> in maximum next 10-15 minutes.</p>
+<p>Submission can be done batch by batch. You can use <code>Applysis.shared.submitFeedbacks(_ feedbacks: [Feedback])</code> to submit a maximum 50 feedbacks at a time.</p>
+<p>If feedback(s) was successfully submitted, it should be visible on the <a href="https://app.applysis.io/">Applysis platform</a> in maximum next 10-15 minutes.</p>
 <h2 id="limitations">Limitations</h2>
 <ul>
 <li>You can not submit more than 50 feedbacks at a single batch.</li>
-<li>With the current plans, you can submit maximum 2000 feedbacks in a month.</li>
-<li><code>text</code> field can not be <code>nil</code> nor empty.</li>
+<li>With the current plans, you can submit a maximum 2000 feedbacks in a month.</li>
+<li><code>text</code> field can not be <code>nil</code> or empty.</li>
 </ul>
-<p>For any issues or technical difficulties, please <a href="mailto:contact@applysis.io">reach out</a> us.</p>
+<p>For any issues or technical difficulties, please <a href="mailto:contact@applysis.io">reach out</a> to us.</p>
                 
               
               

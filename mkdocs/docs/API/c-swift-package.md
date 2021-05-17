@@ -1,6 +1,6 @@
 # Swift Package
 
-Applysis Swift Package gives opportunity to submit feedback automatically from iOS, OSX, WatchOS or TVOS apps directly to [Applysis platform](https://app.applysis.io/). SDK can be used as Swift Package Manager and downloaded from [github repository](https://github.com/applysis/applysis-ios-sdk).
+Applysis Swift Package gives the opportunity to submit feedback automatically from iOS, OSX, WatchOS or TVOS apps directly to the [Applysis platform](https://app.applysis.io/). SDK can be used as Swift Package Manager and downloaded from [github repository](https://github.com/applysis/applysis-ios-sdk).
 
 ## Supported Versions
 
@@ -11,7 +11,7 @@ Applysis Swift Package gives opportunity to submit feedback automatically from i
 
 ## Usage
 
-Before you start using the Package, you should add new API source on Applysis platform and generate the secret key. All details are explained [here.](http://docs.applysis.io/)
+Before you start using the Package, you should add a new API source on Applysis platform and generate the secret key. All details are explained [here.](http://docs.applysis.io/)
 
 ### Initialising
 
@@ -62,14 +62,14 @@ Applysis.shared.submitFeedback(feedback)
 
 ##### Submission by batches
 
-Submission can be done batch by batch. You can use `Applysis.shared.submitFeedbacks(_ feedbacks: [Feedback])` to submit maximum 50 feedbacks at a time.
+Submission can be done batch by batch. You can use `Applysis.shared.submitFeedbacks(_ feedbacks: [Feedback])` to submit a maximum 50 feedbacks at a time.
 
-If feedback(s) was successfully submitted, it should be visible on [Applysis platform](https://app.applysis.io/) in maximum next 10-15 minutes.
+If feedback(s) was successfully submitted, it should be visible on the [Applysis platform](https://app.applysis.io/) in maximum next 10-15 minutes.
 
 ## Limitations
 
 -   You can not submit more than 50 feedbacks at a single batch.
--   With the current plans, you can submit maximum 2000 feedbacks in a month.
--   `text` field can not be `nil` nor empty.
+-   With the current plans, you can submit a maximum 2000 feedbacks in a month.
+-   `text` field can not be `nil` or empty.
 
-For any issues or technical difficulties, please [reach out](mailto:contact@applysis.io) us.
+For any issues or technical difficulties, please [reach out](mailto:contact@applysis.io) to us.

@@ -2,7 +2,7 @@
 
 ### Submission feedback with API Key
 
-Once you [generate the API](a-creating-api-source.md) key on Applysis platform, you can use it now in your own software systems to submit customer feedbacks directly to us.
+Once you [generate the API](a-creating-api-source.md) key on the Applysis platform, you can use it now in your own software systems to submit customer feedback directly to us.
 
 Our feedback object expects 7 fields, out of which only **text** is mandatory. Here is what you can submit to us.
 
@@ -20,7 +20,7 @@ Our feedback object expects 7 fields, out of which only **text** is mandatory. H
 
 Here are some few important things to consider:
 
-1. API expects array of the feedack objects.
+1. API expects an array of the feedback objects.
 2. You can not submit more than 50 feedbacks at a single batch and it can be minimum one feedback.
 3. `text` field can not be `null` nor empty.
 
@@ -56,7 +56,7 @@ Prepare your request, add body, headers and POST it to `https://api-public.apply
 ## Limitations
 
 -   You can not submit more than 50 feedbacks at a single request.
--   With the current plans, you can submit maximum 2000 feedbacks in a month. If you wish you increase the amount, please [reach out](mailto:contact@applysis.io) us.
+-   With the current plans, you can submit a maximum 2000 feedbacks in a month. If you wish to increase the amount, please, [reach out](mailto:contact@applysis.io) to us.
 -   `text` field can not be `null` nor empty.
 
-For any issues or technical difficulties, please [reach out](mailto:contact@applysis.io) us.
+For any issues or technical difficulties, please [reach out](mailto:contact@applysis.io) to us.
