@@ -1,4 +1,4 @@
-# Import CSV
+# Add CSV source
 
 If you have your product up and running, you should be receiving a bunch of emails, in app-feedbacks or conducting qualitative questionnaires with your customers. The purpose is to improve your product or services, but you are definitely struggling with analysing bulk of data in CSV or Excel files. That is why, on top of the Google Play And Apple Store reviews, Applysis can import and analyse any CSV files for you.
 
@@ -19,7 +19,9 @@ Once you upload your final CSV file, Applysis will start searching for specific 
 -   **Region**: optional, it can hold any region value you desire e.g country, city, county.
 -   **Version**: optional, e.g 1.5, 1.6.1 etc.
 
-[Download template](assets/csv_template.csv)
+[Download template](../assets/csv_template.csv)
+
+#
 
 # CSV Import
 
@@ -41,13 +43,13 @@ Once you fill your CSV file you are ready to import it and analyse.
 
 5.  **Upload** your CSV file.
 
-    ![](assets/csv-analysis/select-csv-source.png)
+    ![](../assets/csv-analysis/select-csv-source.png)
 
 6.  In order to make the analysis results cleaner, more detailed and sophisticated, it is mandatory to **link** your CSV to Android or iOS application which the CSV file contains the data of. In order to achieve that, click on **Link the app** located in the below of the window.
 
 7.  Select Store, country, enter your app name and then click **Search**. Once you find your app, click on the **Add Source** button.
 
-    ![](assets/csv-analysis/link-app.png)
+    ![](../assets/csv-analysis/link-app.png)
 
 8.  Popup window will be closed. Now click the **Upload** button.
 
