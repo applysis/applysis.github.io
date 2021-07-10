@@ -34,24 +34,11 @@ File size should not exceed 50 megabytes. For each CSV file we are limiting 2000
 Once you fill your CSV file you are ready to import it and analyse.
 
 1.  Open Applysis platform and navigate to [Sources](https://app.applysis.io/sources).
-
 2.  Click the **Add Source** button.
-
 3.  Select **CSV** as a source type.
-
 4.  Name your Source e.g questionnaire 2020
-
 5.  **Upload** your CSV file.
-
-    ![](../assets/csv-analysis/select-csv-source.png)
-
-6.  In order to make the analysis results cleaner, more detailed and sophisticated, it is mandatory to **link** your CSV to Android or iOS application which the CSV file contains the data of. In order to achieve that, click on **Link the app** located in the below of the window.
-
-7.  Select Store, country, enter your app name and then click **Search**. Once you find your app, click on the **Add Source** button.
-
-    ![](../assets/csv-analysis/link-app.png)
-
-8.  Popup window will be closed. Now click the **Upload** button.
+6.  Now click the **Upload** button.
 
 Congrats! 🎉 You have imported your CSV file and Applysis already started to analyse it. Sit back and wait for some time, until our hard-working AI models will finish their job.
 
