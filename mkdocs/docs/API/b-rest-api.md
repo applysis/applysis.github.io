@@ -13,6 +13,7 @@ Our feedback object expects 7 fields, out of which only **text** is mandatory. H
 -   **author**: optional, e.g user name, email address.
 -   **region**: optional, it can hold any region value you desire e.g country, city, county.
 -   **version**: optional, e.g 1.5, 1.6.1 etc.
+-   **tags**: optional, array of Strings e.g ["brake", "speed", "price"] etc.
 
 ### Steps to submit
 
@@ -35,7 +36,8 @@ Here is the example of JSON:
         "rating": 5,
         "author": "shalva@applysis.io",
         "region": "Tallinn",
-        "version": "1.5.1"
+        "version": "1.5.1",
+        "tags": ["brake", "speed", "price"]
     }
 ]
 ```

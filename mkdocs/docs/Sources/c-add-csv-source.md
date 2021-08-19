@@ -18,6 +18,7 @@ Once you upload your final CSV file, Applysis will start searching for specific 
 -   **Author**: optional, e.g user name, email address.
 -   **Region**: optional, it can hold any region value you desire e.g country, city, county.
 -   **Version**: optional, e.g 1.5, 1.6.1 etc.
+-   **Tags**: optional, array of Strings separated by colum. e.g brake,price,speed etc.
 
 [Download template](../assets/csv_template.csv)
 
