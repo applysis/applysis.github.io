@@ -4,9 +4,9 @@
 
 Once you [generate the API](a-creating-api-source.md) key on the Applysis platform, you can use it now in your own software systems to submit customer feedback directly to us.
 
-Our feedback object expects 7 fields, out of which only **text** is mandatory. Here is what you can submit to us.
+Our feedback object expects 8 fields. Here is what you can submit to us.
 
--   **text**: mandatory, e.g review text, email body etc.
+-   **text**: optional, e.g review text, email body etc.
 -   **title**: optional, e.g email subject, question, review title etc.
 -   **date**: optional. We expect any valid JSON date.
 -   **rating**: optional, e.g review rating, we expect it to be minimum 1, maximum 5
@@ -23,7 +23,6 @@ Here are some few important things to consider:
 
 1. API expects an array of the feedback objects.
 2. You can not submit more than 50 feedbacks at a single batch and it can be minimum one feedback.
-3. `text` field can not be `null` nor empty.
 
 Here is the example of JSON:
 

@@ -29,13 +29,14 @@ It will log all network parameters, headers, body and response. It will help you
 
 Applysis SDK provides the `Feedback` structure which contains:
 
--   **text**: mandatory, e.g review text, email body etc.
+-   **text**: optional, e.g review text, email body etc.
 -   **title**: optional, e.g email subject, question, review title etc.
 -   **date**: optional.
 -   **rating**: optional, e.g review rating, we expect it to be minimum 1, maximum 5
 -   **author**: optional, e.g user name, email address.
 -   **region**: optional, it can hold any region value you desire e.g country, city, county.
 -   **version**: optional, e.g 1.5, 1.6.1 etc.
+-   **tags**: optional, array of strigns e.g ["brake", "speed"]
 
 SDK uses Combine to notify callee about the submission success or failure. So, initialise `Feedback` structure with the data you want to submit and then submit it with the SDK.
 

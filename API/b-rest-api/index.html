@@ -535,9 +535,9 @@
                 <h1 id="rest-api">Rest API</h1>
 <h3 id="submission-feedback-with-api-key">Submission feedback with API Key</h3>
 <p>Once you <a href="../a-creating-api-source/">generate the API</a> key on the Applysis platform, you can use it now in your own software systems to submit customer feedback directly to us.</p>
-<p>Our feedback object expects 7 fields, out of which only <strong>text</strong> is mandatory. Here is what you can submit to us.</p>
+<p>Our feedback object expects 8 fields. Here is what you can submit to us.</p>
 <ul>
-<li><strong>text</strong>: mandatory, e.g review text, email body etc.</li>
+<li><strong>text</strong>: optional, e.g review text, email body etc.</li>
 <li><strong>title</strong>: optional, e.g email subject, question, review title etc.</li>
 <li><strong>date</strong>: optional. We expect any valid JSON date.</li>
 <li><strong>rating</strong>: optional, e.g review rating, we expect it to be minimum 1, maximum 5</li>
@@ -552,7 +552,6 @@
 <ol>
 <li>API expects an array of the feedback objects.</li>
 <li>You can not submit more than 50 feedbacks at a single batch and it can be minimum one feedback.</li>
-<li><code>text</code> field can not be <code>null</code> nor empty.</li>
 </ol>
 <p>Here is the example of JSON:</p>
 <pre><code>[

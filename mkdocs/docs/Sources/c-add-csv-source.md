@@ -9,9 +9,9 @@ Analysis process is simple, it consists of **two main steps:**
 
 ##### Prepare CSV File
 
-Once you upload your final CSV file, Applysis will start searching for specific columns in it. It is mandatory to have **Text** column filled in the file. Here is the more detailed description about columns we expect the file to have.
+Once you upload your final CSV file, Applysis will start searching for specific columns in it. Here is the more detailed description about columns we expect the file to have.
 
--   **Text**: mandatory, e.g review text, email body etc.
+-   **Text**: optionak, e.g review text, email body etc.
 -   **Title**: optional, e.g email subject, question, review title etc.
 -   **Date**: optional.
 -   **Rating**: optional, e.g review rating, we expect it to be minimum 1, maximum 5
